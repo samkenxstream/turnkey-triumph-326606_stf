@@ -58,6 +58,14 @@
   resolved "https://registry.yarnpkg.com/@devicefarmer/minitouch-prebuilt/-/minitouch-prebuilt-1.3.0.tgz#bef394e3aa9f7029f4929325419504e45b181982"
   integrity sha512-vZKh2b4EHxeySLmuO+4YTF5JUEsSuQXOkiVearkBgXerdnbQsVIBRyBvU5xVPkLWz7AI4b9eWIQWjz/a8nwodA==
 
+"@devicefarmer/please-update-dependencies@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@devicefarmer/please-update-dependencies/-/please-update-dependencies-2.0.1.tgz#4f926736dd81eb243af5e7243499973de0e1d06d"
+  integrity sha512-tvm/VXhs+3qSWzZfVjxzAenW0my2D4MZn877xYAyrUZ4EDvQ602z+XtI4gdQke/I7iaM3Um624n+FhdzJDECaQ==
+  dependencies:
+    chalk "^1.1.3"
+    semver "^5.3.0"
+
 "@devicefarmer/stf-appstore-db@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@devicefarmer/stf-appstore-db/-/stf-appstore-db-1.0.0.tgz#84131703c83ad92a6eb1350616bb894be0e39789"
@@ -373,10 +381,10 @@ anchor@^1.2.0:
     "@sailshq/lodash" "^3.10.2"
     validator "5.7.0"
 
-android-device-list@^1.2.1:
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/android-device-list/-/android-device-list-1.2.7.tgz#704bab91698fa352db83955ee07dc89eb14da475"
-  integrity sha512-2YwXSPFMgZEEOLUq2QbWGcB9+YOzTF12Gg9N1Y7WPY6xajLQEl0Lx0/ScyhRpEdg0pWdB3fu01dGpLV2uE2pfg==
+android-device-list@^1.2.7:
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/android-device-list/-/android-device-list-1.2.9.tgz#c3b63010a0c3d2c822feffb514dfc866b258d49c"
+  integrity sha512-h8uJ538gWB2OqDDwKwxkI97lQTR5CcTGPkg8TUn66lv0IUJryHi0SJSvMA2eqo47LwDDHrf5LN/IuRA2uaU1oQ==
 
 angular-gettext-tools@^2.2.0:
   version "2.5.3"
@@ -2674,9 +2682,9 @@ decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2, decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 decompress-response@^4.2.0:
   version "4.2.1"
@@ -8446,14 +8454,6 @@ pkginfo@^0.4.0:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/pkginfo/-/pkginfo-0.4.1.tgz#b5418ef0439de5425fc4995042dced14fb2a84ff"
   integrity sha1-tUGO8EOd5UJfxJlQQtztFPsqhP8=
-
-please-update-dependencies@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/please-update-dependencies/-/please-update-dependencies-2.0.0.tgz#9a99433f3789d1e2757c04e3803395b6fa55a348"
-  integrity sha1-mplDPzeJ0eJ1fATjgDOVtvpVo0g=
-  dependencies:
-    chalk "^1.1.3"
-    semver "^5.3.0"
 
 plugin-error@1.0.1, plugin-error@^1.0.0, plugin-error@^1.0.1:
   version "1.0.1"
