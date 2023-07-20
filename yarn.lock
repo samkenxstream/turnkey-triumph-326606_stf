@@ -58,6 +58,14 @@
   resolved "https://registry.yarnpkg.com/@devicefarmer/minitouch-prebuilt/-/minitouch-prebuilt-1.3.0.tgz#bef394e3aa9f7029f4929325419504e45b181982"
   integrity sha512-vZKh2b4EHxeySLmuO+4YTF5JUEsSuQXOkiVearkBgXerdnbQsVIBRyBvU5xVPkLWz7AI4b9eWIQWjz/a8nwodA==
 
+"@devicefarmer/please-update-dependencies@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@devicefarmer/please-update-dependencies/-/please-update-dependencies-2.0.1.tgz#4f926736dd81eb243af5e7243499973de0e1d06d"
+  integrity sha512-tvm/VXhs+3qSWzZfVjxzAenW0my2D4MZn877xYAyrUZ4EDvQ602z+XtI4gdQke/I7iaM3Um624n+FhdzJDECaQ==
+  dependencies:
+    chalk "^1.1.3"
+    semver "^5.3.0"
+
 "@devicefarmer/stf-appstore-db@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@devicefarmer/stf-appstore-db/-/stf-appstore-db-1.0.0.tgz#84131703c83ad92a6eb1350616bb894be0e39789"
@@ -373,10 +381,10 @@ anchor@^1.2.0:
     "@sailshq/lodash" "^3.10.2"
     validator "5.7.0"
 
-android-device-list@^1.2.1:
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/android-device-list/-/android-device-list-1.2.7.tgz#704bab91698fa352db83955ee07dc89eb14da475"
-  integrity sha512-2YwXSPFMgZEEOLUq2QbWGcB9+YOzTF12Gg9N1Y7WPY6xajLQEl0Lx0/ScyhRpEdg0pWdB3fu01dGpLV2uE2pfg==
+android-device-list@^1.2.7:
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/android-device-list/-/android-device-list-1.2.10.tgz#db332b0b5c6b1b8b95fb8552278b167f587e3b25"
+  integrity sha512-RNvY+pPW8jVyDDHs8dBMbuakcpcm2SqR1dV+PcBjE0qQe0MND2F30+JaRq6PWMYBGjNVaUi3uuA+iPmRN5gjuA==
 
 angular-gettext-tools@^2.2.0:
   version "2.5.3"
@@ -8447,14 +8455,6 @@ pkginfo@^0.4.0:
   resolved "https://registry.yarnpkg.com/pkginfo/-/pkginfo-0.4.1.tgz#b5418ef0439de5425fc4995042dced14fb2a84ff"
   integrity sha1-tUGO8EOd5UJfxJlQQtztFPsqhP8=
 
-please-update-dependencies@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/please-update-dependencies/-/please-update-dependencies-2.0.0.tgz#9a99433f3789d1e2757c04e3803395b6fa55a348"
-  integrity sha1-mplDPzeJ0eJ1fATjgDOVtvpVo0g=
-  dependencies:
-    chalk "^1.1.3"
-    semver "^5.3.0"
-
 plugin-error@1.0.1, plugin-error@^1.0.0, plugin-error@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/plugin-error/-/plugin-error-1.0.1.tgz#77016bd8919d0ac377fdcdd0322328953ca5781c"
@@ -12248,9 +12248,9 @@ with@~4.0.0:
     acorn-globals "^1.0.3"
 
 word-wrap@~1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
-  integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.4.tgz#cb4b50ec9aca570abd1f52f33cd45b6c61739a9f"
+  integrity sha512-2V81OA4ugVo5pRo46hAoD2ivUJx8jXmWXfUkY4KFNw0hEptvN0QfH3K4nHiwzGeKl5rFKedV48QVoqYavy4YpA==
 
 wordwrap@0.0.2:
   version "0.0.2"
